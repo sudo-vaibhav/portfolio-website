@@ -1,15 +1,12 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  overflow: hidden;
+  background: url('./bg.jpg');
+  background-repeat: repeat;
 }
 
-.scene canvas {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
+h1,
+h2 {
+  font-family: 'Sora', sans-serif;
+}
+h1 span {
+  font-family: 'Sansita Swashed', cursive;
 }
